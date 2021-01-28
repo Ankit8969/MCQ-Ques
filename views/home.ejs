@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+    <form action="/" METHOD="POST">
+        <div class="details">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" required>
+        </div>
+        <!-- single type question  -->
+        <div class="singleQuestion">
+            <h2>Single Correct Question</h2>
+            <div class="question">
+                <p><b>Select your State</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="radio" id="male" value="Delhi" name="1">
+                        <label for="male">Delhi</label>
+                    </div>
+                    <div class="first2">
+                        <input type="radio" id="female" value="Mumbai" name="1">
+                        <label for="female">Mumbai</label>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="radio" id="male" value="BIhar" name="1">
+                        <label for="male">BIhar</label>
+                    </div>
+                    <div class="second2">
+                        <input type="radio" id="female" value="Pune" name="1">
+                        <label for="female">Pune</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p><b>Select your Country</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="radio" id="male" value="INdia" name="2">
+                        <label for="male">INdia</label>
+                    </div>
+                    <div class="first2">
+                        <input type="radio" id="female" value="Australia" name="2">
+                        <label for="female">Australia</label>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="radio" id="male" value="Nepal" name="2">
+                        <label for="male">Nepal</label>
+                    </div>
+                    <div class="second2">
+                        <input type="radio" id="female" value="Russia" name="2">
+                        <label for="female">Russia</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p><b>Select your Friend</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="radio" id="male" value="Aman" name="3">
+                        <label for="male">Aman</label>
+                    </div>
+                    <div class="first2">
+                        <input type="radio" id="female" value="Rohan" name="3">
+                        <label for="female">Rohan</label>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="radio" id="male" value="Suresh" name="3">
+                        <label for="male">Suresh</label>
+                    </div>
+                    <div class="second2">
+                        <input type="radio" id="female" value="Mahesh" name="3">
+                        <label for="female">Mahesh</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- multiple type question  -->
+        <div class="singleQuestion" style="margin-top: 10%;">
+            <h2>Multiple Correct Question</h2>
+            <div class="question">
+                <p><b>Select your Bike</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="checkbox" name="m-1" value="honda">honda
+                    </div>
+                    <div class="first2">
+                        <input type="checkbox" name="m-1" value="pulsar">pulsar
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="checkbox" name="m-1" value="cbr">cbr
+                    </div>
+                    <div class="second2">
+                        <input type="checkbox" name="m-1" value="bullet">bullet
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p><b>Select your Food</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="checkbox" name="m-2" value="pizza">Pizza
+                    </div>
+                    <div class="first2">
+                        <input type="checkbox" name="m-2" value="burgur">Burgur
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="checkbox" name="m-2" value="cake">Cake
+                    </div>
+                    <div class="second2">
+                        <input type="checkbox" name="m-2" value="non-veg">Non-Veg
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p><b>Select your Book</b></p>
+                <div class="first">
+                    <div class="first1">
+                        <input type="checkbox" name="m-3" value="physics">Physics
+                    </div>
+                    <div class="first2">
+                        <input type="checkbox" name="m-3" value="chemistry">Chemistry
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second1">
+                        <input type="checkbox" name="m-3" value="biology">Biology
+                    </div>
+                    <div class="second2">
+                        <input type="checkbox" name="m-3" value="math">Math
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- paragraph type question  -->
+
+        <div class="singleQuestion" style="margin-top:10%;">
+            <h2>Long Answer Type Question</h2>
+            <div class="question" style="border:none;">
+                <p><b>Write Short notes on Binay Tree?</b></p>
+                <div class="first">
+                    <textarea name="p-1" placeholder="Write notes here?" rows="20" cols="30"></textarea>
+                </div>
+            </div>
+
+            <div class="question" style="border:none;">
+                <p><b>Write Short notes on Heap?</b></p>
+                <div class="first">
+                    <textarea name="p-2" placeholder="Write notes here?" rows="20" cols="30"></textarea>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display: flex; align-items: center;">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+    <!-- <script>
+        setInterval(function () { document.querySelector('.btn').click(); }, 20000);
+    </script> -->
+</body>
+
+</html>
